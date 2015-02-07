@@ -31,7 +31,7 @@ gem "devise"
 gem "active_model_serializers"
 gem "grape", '0.9.0' # encountered this bug: https://github.com/jrhe/grape-active_model_serializers/issues/35
 gem "grape-active_model_serializers"
-gem "grape-swagger-rails"
+gem "grape-swagger-rails", '0.0.10' # http://stackoverflow.com/questions/27656851/grape-swagger-unable-to-read-api-users-from-path-url-server-returned-undefi
 gem "rack-cors", require: "rack/cors"
 
 group :development do
